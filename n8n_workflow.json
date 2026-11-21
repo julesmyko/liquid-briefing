@@ -1,0 +1,17 @@
+{
+  "name": "Liquid Briefing",
+  "nodes": [
+    {"parameters": {"httpMethod": "POST", "path": "liquid-briefing", "responseMode": "responseNode", "options": {}},
+     "id": "a1", "name": "Webhook", "type": "n8n-nodes-base.webhook", "typeVersion": 2, "position": [0, 0], "webhookId": "liquid-briefing"},
+    {"parameters": {"method": "POST", "url": "http://localhost:8787/briefing", "sendBody": true, "specifyBody": "json",
+                    "jsonBody": "={{ JSON.stringify($json.body) }}", "options": {"timeout": 300000}},
+     "id": "a2", "name": "Run briefing (Python + OpenAI + ElevenLabs)", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [280, 0]},
+    {"parameters": {"respondWith": "json", "responseBody": "={{ $json }}", "options": {}},
+     "id": "a3", "name": "Respond", "type": "n8n-nodes-base.respondToWebhook", "typeVersion": 1.1, "position": [600, 0]}
+  ],
+  "connections": {
+    "Webhook": {"main": [[{"node": "Run briefing (Python + OpenAI + ElevenLabs)", "type": "main", "index": 0}]]},
+    "Run briefing (Python + OpenAI + ElevenLabs)": {"main": [[{"node": "Respond", "type": "main", "index": 0}]]}
+  },
+  "settings": {}
+}

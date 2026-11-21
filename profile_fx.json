@@ -1,0 +1,13 @@
+{
+  "name": "fx_trader",
+  "language": "en",
+  "description": "FX trader who needs central bank, rates, inflation and currency news fast, expert level",
+  "topics": ["fed", "ecb", "boj", "central bank", "inflation", "ppi", "cpi", "currency", "forex", "usd", "eur", "yen", "dollar", "rates", "rate cut", "rate hike", "yields", "gold"],
+  "exclude_topics": ["james bond", "royal", "kate middleton", "prince william", "russell brand"],
+  "preferred_outlets": ["actionforex"],
+  "max_stories": 6,
+  "target_minutes": 8,
+  "words_per_minute": 123,
+  "style": "terse, expert, no explanations of basic terms, lead each story with the figure and the surprise versus forecast when the facts give it",
+  "voice_id": "I7qs7sGMuqqIuJ1AE3eT"
+}

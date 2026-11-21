@@ -1,0 +1,13 @@
+{
+  "name": "dutch_investor",
+  "language": "nl",
+  "description": "Dutch retail investor who follows US tech stocks, AI and crypto and wants to know what happened and why markets moved",
+  "topics": ["stock", "stocks", "shares", "nasdaq", "dow", "nvidia", "anthropic", "ai", "crypto", "bitcoin", "inflation", "earnings", "etf", "aandelen", "beurs"],
+  "exclude_topics": ["james bond", "royal", "kate middleton", "prince william", "russell brand"],
+  "preferred_outlets": ["invezz"],
+  "max_stories": 5,
+  "target_minutes": 6,
+  "words_per_minute": 119,
+  "style": "calm and clear Dutch, short sentences, explain what moved and why only when the facts say so, figures spoken with a decimal comma",
+  "voice_id": "8B6lPskx1bcErhNkFdqo"
+}

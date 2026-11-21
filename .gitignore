@@ -1,0 +1,11 @@
+# Licence: article data and anything derived from article text must never be committed or shared.
+*.jsonl
+.env
+.venv/
+cache/
+runs/
+out_*/
+demo_*/
+_old_v1/
+__pycache__/
+*.mp3

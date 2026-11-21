@@ -1,0 +1,13 @@
+{
+  "name": "general_news",
+  "language": "en",
+  "description": "Someone who just wants to know what happened in the world today, no finance background, plain language",
+  "topics": ["trump", "senate", "court", "lawsuit", "outage", "flights", "election", "scandal", "war", "police", "world", "nvidia", "microsoft"],
+  "exclude_topics": ["james bond", "royal", "kate middleton", "prince william", "russell brand", "etf"],
+  "preferred_outlets": ["ibtimes"],
+  "max_stories": 5,
+  "target_minutes": 5,
+  "words_per_minute": 123,
+  "style": "plain conversational English, no jargon, explain any market term in a few words, warm but neutral tone, no figures unless they matter",
+  "voice_id": "I7qs7sGMuqqIuJ1AE3eT"
+}

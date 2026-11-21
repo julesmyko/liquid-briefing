@@ -1,0 +1,6 @@
+{
+  "_note": "Fill with the REAL prices of your plans (USD). Leave null to get token/character counts only.",
+  "llm_input_per_mtok": null,
+  "llm_output_per_mtok": null,
+  "tts_per_1k_chars": null
+}
